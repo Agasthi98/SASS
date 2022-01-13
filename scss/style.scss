@@ -1,4 +1,4 @@
-@import 'config';
+@import "config";
 
 * {
   box-sizing: border-box;
@@ -38,8 +38,8 @@ a {
       padding: 15px;
     }
 
-    a{
-        color: set-text-color($primary-color);
+    a {
+      color: set-text-color($primary-color);
     }
 
     a:hover {
@@ -65,7 +65,6 @@ a {
   }
 }
 
-
-@import 'utilities';
-@import 'buttons';
-@import 'mobile';
+@import "utilities";
+@import "buttons";
+@import "mobile";
